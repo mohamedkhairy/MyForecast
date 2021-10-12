@@ -92,9 +92,9 @@ dependencies {
 //    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
 //    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
 
-    implementation(Banner.banner)
-    implementation(Glide.glide)
-    kapt(Glide.gildeCompiler)
+//    implementation(Banner.banner)
+//    implementation(Glide.glide)
+//    kapt(Glide.gildeCompiler)
 
     implementation(Kotlinx.coroutinesCore)
     implementation(RXdependencies.coroutinesRx)
@@ -110,11 +110,11 @@ dependencies {
 
     implementation(Serialization.serialization)
 
-    implementation(Ktor.core)
-    implementation(Ktor.clientSerialization)
-    implementation(Ktor.android)
-    implementation(Ktor.ktorJson)
-    implementation(Ktor.logging)
+//    implementation(Ktor.core)
+//    implementation(Ktor.clientSerialization)
+//    implementation(Ktor.android)
+//    implementation(Ktor.ktorJson)
+//    implementation(Ktor.logging)
 
     implementation(project(":data"))
     implementation(project(":domain"))

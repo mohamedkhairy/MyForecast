@@ -1,4 +1,4 @@
-package com.example.data.dataSource.loaca.db
+package com.example.data.dataSource.loaca.db.entity
 
 import androidx.room.Embedded
 import androidx.room.Entity

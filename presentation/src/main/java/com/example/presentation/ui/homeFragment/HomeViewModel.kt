@@ -1,4 +1,4 @@
-package com.example.presentation.ui.fragment
+package com.example.presentation.ui.homeFragment
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

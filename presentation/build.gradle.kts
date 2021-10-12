@@ -2,6 +2,8 @@ import dependencies.BuildVersion
 import dependencies.AndroidX
 import dependencies.Hilt
 import dependencies.Kotlinx
+import dependencies.Google
+import dependencies.Glide
 
 
 plugins {
@@ -65,8 +67,14 @@ dependencies {
     implementation(AndroidX.fragmentKtx)
     implementation(AndroidX.swiperefreshlayout)
 
+    implementation(Glide.glide)
+    kapt(Glide.gildeCompiler)
+
     implementation(Hilt.android)
     kapt(Hilt.compiler)
+
+    implementation(Google.material)
+
 
     implementation(Kotlinx.coroutinesCore)
     implementation("androidx.legacy:legacy-support-v4:1.0.0")

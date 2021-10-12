@@ -3,7 +3,8 @@ package com.example.presentation.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.presentation.R
-import com.example.presentation.ui.fragment.HomeFragment
+import com.example.presentation.ui.historicalForecast.HistoricalForecastFragment
+import com.example.presentation.ui.homeFragment.HomeFragment
 import com.example.presentation.utils.addFragment
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -13,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        addFragment(HomeFragment() , HomeFragment::class.simpleName , this)
+        addFragment(HistoricalForecastFragment() , HistoricalForecastFragment::class.simpleName , this)
     }
 }

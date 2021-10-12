@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="presentation/src/main/res/layout/activity_main.xml" value="0.2667572463768116" />
+        <entry key="presentation/src/main/res/layout/forecast_item.xml" value="0.2604166666666667" />
+        <entry key="presentation/src/main/res/layout/historical_forecast_fragment.xml" value="0.2604166666666667" />
         <entry key="presentation/src/main/res/layout/home_fragment.xml" value="0.2667572463768116" />
       </map>
     </option>

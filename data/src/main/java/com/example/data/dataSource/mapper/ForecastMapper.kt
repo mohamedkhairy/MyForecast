@@ -1,8 +1,7 @@
 package com.example.data.dataSource.mapper
 
-import com.example.data.dataSource.loaca.db.*
+import com.example.data.dataSource.loaca.db.entity.*
 import com.example.data.dataSource.remote.model.*
-import com.example.domain.entities.Forecast
 
 
 fun ForecastResponse.mappingForecast(): ForecastEntity {
